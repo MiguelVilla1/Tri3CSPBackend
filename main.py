@@ -22,6 +22,7 @@ from api.event import event_api
 from model.users import initUsers
 from model.players import initPlayers
 from model.titanicML import initTitanic
+from model.realEstateModels import initHouses
 
 # setup App pages
 from projects.projects import app_projects # Blueprint directory import projects definition
